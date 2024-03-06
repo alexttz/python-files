@@ -1,0 +1,47 @@
+Existem diversos operadores aritiméticos em Python:
+
+Adição +
+Subtração - 
+Multiplicação *
+Divisão /
+Potência ou Exponenciação **
+Divisão Inteira //
+Resto da Divisão %
+
+Exemplos:
+
+5 + 2 == 7
+5 - 2 == 3
+5 * 2 == 10
+5 / 2 == 2.5
+5 ** 2 == 25
+5 // 5 == 2
+5 % 5 == 1
+
+Ordem de Precedência
+
+1- () [Parênteses]
+2- ** [Exponenciação]
+3- * / // % [Multiplicação, Divisão, Divisão Inteira, Resto da Divisão]
+4- + - [Adição e Subtração]
+
+Podemos utilizar a função pow (power) para calcular a potência de um número.
+
+Exemplo:
+
+pow(4,3)
+
+Com a utilização dessa função nós perdemos a força da ordem de procedência, atenção quanto a isso.
+
+Podemos calcular a raiz quadrada de um número informado utilizando a seguinte expressão
+
+n ** (1/2);
+
+O mesmo exemplo para a raiz cúbica pode ser atribuído:
+
+n ** (1/3);
+
+Para formatar determinados números decimais utilizando a função .format() devemos acrescentar a {} na qual pertence o número, a quantidade de casas que serão exibidas
+Exemplo:
+
+print('O numero decimal é {:.2f}.'.format(n)) // Aqui está sendo definido por .2f que serão exibidas somente duas casas decimais.

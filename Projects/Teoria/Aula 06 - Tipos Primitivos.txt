@@ -1,0 +1,25 @@
+Aula 06 - Tipos Primitivos
+
+///////////////////////////////////////////////
+
+Tipos primitivos em Python definem o tipo de dados que serão inseridos em variáveis.
+
+Tipos primitivos básicos:
+- int (Inteiro: 0, 1, 2, 3,...)
+- float (Flutuante ou decimal: 0.5, 1,0, 1.5, 2.0,...)
+- bool (Booleano ou lógico: True, False.)
+- str (String ou texto: Olá, '7.5')
+
+Exemplo em código:
+
+n1 = int(input('Digite um número: '))
+n2 = int(input('Digite outro número: '))
+soma = n1 + n2
+print('A soma vale {}'.format(soma))
+
+Exemplo usando a função .format
+
+n1 = int(input('Digite um número: '))
+n2 = int(input('Digite outro número: '))
+soma = n1 + n2
+print('A soma entre {} e {} vale {}'.format(n1,n2,soma))

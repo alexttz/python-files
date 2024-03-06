@@ -1,0 +1,29 @@
+Aula 8 – Utilizando Módulos
+
+/////////////////////////////
+
+Os módulos são como um conjunto de itens que podem ser integrados a linguagem. Por padrão o Python possui o essencial para funcionar, mas caso aja necessidade, podemos integrar módulos a linguagem trazendo assim novas funções a serem integradas ao código.
+Esses módulos podem ser importados através dos comandos import/from import no Python ou podem ser módulos instaláveis na máquina.
+
+Exemplo de Importação por código:
+
+import math / Importa toda a biblioteca
+from math import sqrt / Importa uma função específica da biblioteca
+
+Código importando a biblioteca:
+
+import math
+num = int(input("Digite um número: "))
+raiz = math.sqrt(num)
+print("A raiz de {} é igual a {}. ".format(num, raiz))
+
+//////////////////////////
+
+Código importando a função
+
+from math import sqrt
+num = int(input("Digite um número: "))
+raiz = sqrt(num)
+print("A raiz de {} é igual a {}. ".format(num, raiz))
+
+
